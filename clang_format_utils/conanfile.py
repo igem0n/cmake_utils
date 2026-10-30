@@ -3,7 +3,7 @@ from conan.tools.files import copy
 
 class CMakeClangFormatUtils(ConanFile):
     name = "cmake_clang_format_utils"
-    version = "1.0"
+    version = "1.1"
     package_type = "static-library"
     exports_sources = "*.cmake"
 
